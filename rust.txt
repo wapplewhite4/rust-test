@@ -1,0 +1,42 @@
+fn main() {
+    println!("Hello, world!");
+
+    // Declare and initialize variables
+    let name = "John";
+    let age = 25;
+    let pi: f64 = 3.14159;
+
+    // Print variables
+    println!("Name: {}", name);
+    println!("Age: {}", age);
+    println!("Pi: {}", pi);
+
+    // Perform arithmetic operations
+    let sum = 5 + 3;
+    let difference = 10 - 5;
+    let product = 4 * 6;
+    let quotient = 15 / 3;
+
+    // Print results of arithmetic operations
+    println!("Sum: {}", sum);
+    println!("Difference: {}", difference);
+    println!("Product: {}", product);
+    println!("Quotient: {}", quotient);
+
+    // Conditional statements
+    if age < 18 {
+        println!("You are a minor.");
+    } else {
+        println!("You are an adult.");
+    }
+
+    // Loop
+    let mut count = 0;
+    loop {
+        println!("Count: {}", count);
+        count += 1;
+        if count == 5 {
+            break;
+        }
+    }
+}
